@@ -1,5 +1,6 @@
-Strabil is Monte Carlo library with underlying database for market simulation.
+Strabil is a Monte Carlo Java library with underlying database – Neo4j – for market simulation.  Shortly said, it has Agents and Products, plus Relationships. Every Agent can use different ReactionToOffer to decide if it is going to buy a Product offered by another Agent or not.  Strabile uses Neo4j as persistence database and has borrowed a few files from JQuantLib (www.jquantlib.org), mainly from the math package. 
 
-Shortly said, has Agent and Product, plus relationship. Every Agent can use different ReactionToOffer to decide if it is going to buy the product or not.
+Strabil was inspired by Geant4 (geant4.cern.ch), a "toolkit for the simulation of the passage of particles through matter", initially developed at the European Laboratory for Nuclear Physics (CERN). Although there is no connection between the two project (Geant4 is a C++ library of much higher complexity), like for Geant4, also in Strabil the collaboration will provide a library, a "schema", on which you can build your own application. As the Geant4 collaboration says for their product: "You can build what you want, tailor it to your requirements, but you have to build it yourself".
 
-Strabile uses Neo4j (www.neo4j) as persistence database and has borrowed a few files from JQuantLib (www.jquantlib.org), mainly the math package.
+For an example on how to use Strabil, see Parikha (https://github.com/malemi/Parikha2.0)
+
