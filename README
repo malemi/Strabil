@@ -1,0 +1,5 @@
+Strabil is Monte Carlo library with underlying database for market simulation.
+
+Shortly said, has Agent and Product, plus relationship. Every Agent can use different ReactionToOffer to decide if it is going to buy the product or not.
+
+Strabile uses Neo4j (www.neo4j) as persistence database and has borrowed a few files from JQuantLib (www.jquantlib.org), mainly the math package.
